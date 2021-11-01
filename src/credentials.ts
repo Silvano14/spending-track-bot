@@ -1,1 +1,0 @@
-export const TOKEN: string = '528340022:AAG6tNv8fzGs3sMoPWf_cEGpgBwzR_rCsoY';
