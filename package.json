@@ -1,0 +1,31 @@
+{
+    "name": "spending-track-bot",
+    "version": "0.0.1",
+    "description": "a telegram bot to keep track of the expenses made",
+    "main": "index.ts",
+    "scripts": {
+        "start": "tsc && node dist/index.js",
+        "test": "yarn test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Silvano14/spending-track-bot.git"
+    },
+    "keywords": [
+        "telegram",
+        "bot",
+        "node"
+    ],
+    "author": "Silvano Norberti",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Silvano14/spending-track-bot/issues"
+    },
+    "homepage": "https://github.com/Silvano14/spending-track-bot#readme",
+    "dependencies": {
+        "@types/node": "^16.11.6",
+        "@types/node-telegram-bot-api": "^0.53.1",
+        "node-telegram-bot-api": "^0.54.0",
+        "typescript": "^4.4.4"
+    }
+}
